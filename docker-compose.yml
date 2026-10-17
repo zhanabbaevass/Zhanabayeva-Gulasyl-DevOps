@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  devops-app:
+    build: .
+    container_name: zhanabayeva-gulasyl-container
+    environment:
+      - STUDENT_NAME=Gulasyl
+      - STUDENT_SURNAME=Zhanabayeva
+      - STUDENT_GROUP=IT2-2310
+      - STUDENT_ID=37225
